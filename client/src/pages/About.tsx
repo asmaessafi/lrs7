@@ -144,7 +144,7 @@ export default function About() {
           </motion.div>
           <motion.div initial={{ opacity: 0, x: 50 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="relative rounded-3xl overflow-hidden shadow-2xl ring-4 ring-blue-50 group">
             <img
-              src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=900&h=700&fit=crop"
+              src="/pictures/about1.png"
               alt="Factory"
               className="group-hover:scale-105 transition-transform duration-1000"
             />

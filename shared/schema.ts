@@ -41,16 +41,16 @@ export const categoryLabels: Record<Category, string> = {
 
 export const allCategories: Category[] = [
   "gel-douche",
-  "deodorant",
-  "roll-on",
+  // "deodorant",
+  // "roll-on",
   "shampoing",
   "masques-capillaires",
-  "huiles",
+  // "huiles",
   "soins-enfants-bebe",
   "styling",
-  "cremes-vaselines",
-  "gel-hydro-alcoolique",
-  "autres",
+  // "cremes-vaselines",
+  // "gel-hydro-alcoolique",
+  // "autres"
 ];
 
 export const products: Product[] = [
@@ -119,13 +119,13 @@ export const products: Product[] = [
     imageUrl: "/pictures/aljara/5.jpg",
   },
   {
-    id: "gd-aljara-fresh",
+    id: "gd-aljara-marine",
     name: "Gel Douche Vanilla",
     brand: "AL JARA",
     category: "gel-douche",
-    description: "Fresh",
+    description: "Marine Minerals",
     variants: ["Vanilla", "Purple Flowers", "Marine Minerals"],
-    imageUrl: "/pictures/aljara/1.jpg",
+    imageUrl: "/pictures/aljara/6.jpg",
   },
   ///////////BOOM///////////
   {
