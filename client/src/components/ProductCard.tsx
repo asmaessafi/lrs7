@@ -31,7 +31,7 @@ export function ProductCard({ product, onClick }: ProductCardProps) {
       onClick={onClick}
       onTouchStart={isMobile ? handleTouchStart : undefined}
       className={cn(
-        "group relative overflow-hidden rounded-3xl bg-white/95 backdrop-blur-md shadow-lg transition-all duration-700 cursor-pointer",
+        "group relative overflow-hidden rounded-3xl bg-white/95 backdrop-blur-md shadow-lg transition-all duration-700 cursor-pointer h-96",
         isMobile
           ? "hover:shadow-lg hover:-translate-y-1"
           : "hover:shadow-2xl hover:-translate-y-3 hover:ring-4 hover:ring-blue-400/30 hover:ring-offset-4 hover:ring-offset-white/50",

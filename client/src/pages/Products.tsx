@@ -106,11 +106,11 @@ export default function Products() {
         />
       </div>
 
-      <main className="min-h-screen bg-gradient-to-br from-blue-50/30 via-white to-indigo-50/20 max-w-7xl ">
-        <div className="flex flex-col md:flex-row max-w-7xl mx-auto">
+      <main className="min-h-screen  bg-gradient-to-br from-blue-50/30 via-white to-indigo-50/20 max-w-screen-2xl ">
+        <div className="flex flex-col  md:flex-row max-w-7xl mx-auto">
 
           <div className="md:w-72 flex-shrink-0">
-            <div className="sticky top-16 md:top-20 z-1 md:h-[calc(100vh-5rem)] ">
+            <div className="sticky top-16 md:top-20 z-10 md:h-[calc(100vh-5rem)] ">
               <div className="h-full bg-white/70 backdrop-blur-2xl border-r border-blue-200/30 shadow-2xl shadow-blue-100/20 overflow-hidden rounded-r-2xl">
                 <div className="px-8 py-10 flex flex-col h-full">
                   <FilterBar
@@ -142,7 +142,7 @@ export default function Products() {
 
               {/* Loading / Error / Empty / Grid */}
               {showLoading ? (
-                <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-10">
+                <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-10">
                   {Array.from({ length: 15 }).map((_, i) => (
                     <ProductSkeleton key={i} />
                   ))}
@@ -161,11 +161,11 @@ export default function Products() {
                 products.length > 0 ? (
                   <>
                     {/* Clickable Product Cards Grid */}
-                    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-10 ring-inset pt-3">
+                    <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-10 ring-inset pt-3">
                       {products.map((product) => (
                         <div
                           key={product.id}
-                          className="cursor-pointer transition-all duration-300 hover:scale-105 "
+                          className="cursor-pointer transition-all duration-300 hover:scale-105"
                         >
                           <ProductCard product={product} />
                         </div>
