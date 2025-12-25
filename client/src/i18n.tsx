@@ -93,7 +93,7 @@ const fr: Translations = {
   "about.mission.body": "Offrir des produits cosmétiques et d'hygiène de haute qualité, accessibles à tous, tout en respectant l'environnement et en faisant rayonner l'industrie tunisienne.",
 
   // Contact page
-  "contact.header.title": "Contactez-nous",
+  "contact.header.title": "Contacte",
   "contact.header.subtitle.1": "Une question, une suggestion ou une demande de partenariat ?",
   "contact.header.subtitle.2": "Notre équipe est à votre écoute avec plaisir.",
   "contact.info.title": "Nos coordonnées",
@@ -108,7 +108,7 @@ const fr: Translations = {
   "contact.distribution.body": "Nous distribuons nos produits en Tunisie, Libye, Algérie et Afrique de l’Ouest.\nPour les demandes de partenariat ou de distribution, contactez-nous directement.",
 
   // Contact form
-  "contact.form.title": "Contactez-nous",
+  "contact.form.title": "Contact",
   "contact.form.subtitle": "Nous sommes à votre écoute avec plaisir",
   "contact.form.name": "Nom complet",
   "contact.form.name.placeholder": "Votre nom complet",

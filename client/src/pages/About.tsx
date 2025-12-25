@@ -144,9 +144,9 @@ export default function About() {
           </motion.div>
           <motion.div initial={{ opacity: 0, x: 50 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="relative rounded-3xl overflow-hidden shadow-2xl ring-4 ring-blue-50 group">
             <img
-              src="/pictures/about1.png"
+              src="/pictures/LRS.png"
               alt="Factory"
-              className="group-hover:scale-105 transition-transform duration-1000"
+              className="group-hover:scale-105 transition-transform duration-1000 bg-[#401285]"
             />
             <div className="absolute inset-0 bg-blue-900/10 group-hover:bg-transparent transition-colors duration-500" />
           </motion.div>
